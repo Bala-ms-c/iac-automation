@@ -1,0 +1,5 @@
+#configuring an AWS Region:
+aws configure
+
+#adding a default subnet:
+aws ec2 create-default-subnet --availability-zone us-east-1a
