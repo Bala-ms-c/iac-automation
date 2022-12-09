@@ -2,4 +2,5 @@
 aws configure
 
 #adding a default subnet:
+sudo apt install awscli
 aws ec2 create-default-subnet --availability-zone us-east-1a
